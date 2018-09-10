@@ -4,7 +4,9 @@ import {updateObject} from '../utility';
 const initialState = {
     ingredients: null,
     totalPrice: 4,
-    error: false
+    error: false,
+    building: false,
+    authRedirectPath: '/'
 };
 
 const INGREDIENT_RPICES = {
@@ -19,7 +21,8 @@ const addIngredient = (state, action) => {
     const updatedIngredients = updateObject(state.ingredients, updatedIngredient);
     const updatedState = {
         ingredients: updatedIngredients,
-        totalPrice: state.totalPrice + INGREDIENT_RPICES[action.ingredientName]
+        totalPrice: state.totalPrice + INGREDIENT_RPICES[action.ingredientName],
+        building: true
     };
     return updateObject(state, updatedState);
 };
@@ -38,7 +41,8 @@ const setIngredients = (state, action) => {
     return updateObject(state, {
         ingredients: action.ingredients,
         totalPrice: 4,
-        error: false
+        error: false,
+        building: false
     });
 };
 

@@ -1,0 +1,275 @@
+[debug] [2018-09-10T15:04:25.429Z] ----------------------------------------------------------------------
+[debug] [2018-09-10T15:04:25.432Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login
+[debug] [2018-09-10T15:04:25.432Z] CLI Version:   4.2.1
+[debug] [2018-09-10T15:04:25.432Z] Platform:      darwin
+[debug] [2018-09-10T15:04:25.432Z] Node Version:  v8.11.2
+[debug] [2018-09-10T15:04:25.432Z] Time:          Mon Sep 10 2018 23:04:25 GMT+0800 (CST)
+[debug] [2018-09-10T15:04:25.432Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=159738566&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2018-09-10T15:04:51.778Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:05:36.077Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:06:07.018Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:06:23.522Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:06:51.317Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:07:12.637Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:07:38.727Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:08:18.201Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:08:27.811Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:09:32.278Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:09:33.518Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:10:27.234Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:10:47.848Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:11:11.309Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:11:18.468Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:11:42.924Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:12:02.742Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:12:27.127Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:12:34.189Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:12:51.829Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:13:17.990Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:14:05.890Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:14:07.015Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:15:00.042Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:15:21.075Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:15:44.295Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:16:15.200Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:16:33.363Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:16:59.435Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:17:47.443Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:17:48.489Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:19:02.575Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:19:31.532Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:20:46.658Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:25:15.614Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-10T15:26:30.818Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-10T15:35:59.804Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-11T01:22:30.143Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-09-11T01:42:36.863Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-11T01:43:20.601Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-09-11T01:43:53.148Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
